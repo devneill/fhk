@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/thefarmh/public_html/
-    - /fhk/catalog/ -R view $DEPLOYPATH
+    - /catalog/view/theme/default/template/common/ header.twig $DEPLOYPATH
