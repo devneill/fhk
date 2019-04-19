@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/user/public_html/
-    - /bin/cp -R catalog $DEPLOYPATH
+    - /home/user/repositories/fhk -R catalog $DEPLOYPATH
