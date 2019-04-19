@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/thefarmh/public_html/
-    - /catalog/ -R view $DEPLOYPATH
+    - /fhk/catalog/ -R view $DEPLOYPATH
